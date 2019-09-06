@@ -73,4 +73,7 @@ SELECT yr, subject, winner FROM nobel
 WHERE (subject LIKE 'Medicine' AND yr < 1910)
 OR (subject LIKE 'Literature' AND yr >= 2004)
 
+--11. Find all details of the prize won by PETER GRÜNBERG.
+SELECT * FROM nobel 
+WHERE winner LIKE 'PETER GRÜNBERG'
 
