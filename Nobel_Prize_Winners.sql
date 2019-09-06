@@ -1,3 +1,5 @@
+DATABASE AT https://sqlzoo.net/wiki/SELECT_from_Nobel_Tutorial
+
 -- 1. Display Nobel prizes for 1950.
 SELECT yr, subject, winner
 FROM nobel
